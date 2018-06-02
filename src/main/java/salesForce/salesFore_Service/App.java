@@ -36,12 +36,12 @@ import org.json.JSONTokener;
  */
 public class App 
 {
-    	static final String USERNAME = "rajakumar.malla@te.dev";
-    	static final String PASSWORD = "tedev@123Cyr0FDHVM3vaCOhBHHH2gj6aH";
+    	static final String USERNAME = "xxxx.malla@te.dev";
+    	static final String PASSWORD = "tedev@xxxxxxxxxxxx";
     	static final String LOGINURL = "https://login.salesforce.com";
     	static final String GRANTSERVICE = "/services/oauth2/token?grant_type=password";
-    	static final String CLIENTID = "3MVG95NPsF2gwOiNhbTulQJtlU93S5lTn6uN57LqCQ.MnuofK8iaplqbFNCWHANOcBZ5ibeGkIO3sXQg8Rv4l";
-    	static final String CLIENTSECRET = "8566017827821408731";
+    	static final String CLIENTID = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
+    	static final String CLIENTSECRET = "xxxxxxxxxxxxxxx";
     	private static String REST_ENDPOINT = "/services/data";
     	private static String API_VERSION = "/v32.0";
     	private static String baseUri;
@@ -135,8 +135,8 @@ public class App
     		System.out.println("Oracle JDBC Driver Registered!");
     		Connection connection = null;
     		try {
-    			connection = DriverManager.getConnection("jdbc:oracle:thin:@18.188.50.154:1521:dproinst1", "dpradmin",
-    					"dpradmin");
+    			connection = DriverManager.getConnection("jdbc:oracle:thin:@xx.xxx.50.xxx:xxxx:dproixxx", "dprxxxx",
+    					"dprzzzz");
     		} catch (SQLException e) {
     			System.out.println("Connection Failed! Check output console");
     			e.printStackTrace();
